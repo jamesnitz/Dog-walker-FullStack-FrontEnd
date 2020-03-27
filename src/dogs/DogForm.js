@@ -18,11 +18,8 @@ export default props => {
         breed: dogBreedRef.current.value,
         notes: dogNoteRef.current.value    
       }).then(props.history.push("/"))
-    } 
+  } 
     
-
-
-
   return (
     <>
   <div className="form-group">
